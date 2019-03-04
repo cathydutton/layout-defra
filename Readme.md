@@ -4,7 +4,7 @@ Defra page template for showing flood warnings in the Gov.uk Prototype kit
 
 ## How to install
 
-'npm install cathydutton/layout-defra-flood-warning'
+`npm install cathydutton/layout-defra-flood-warning`
 
 ## How to include
 
