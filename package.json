@@ -1,11 +1,19 @@
 {
-  "name": "flood-banner",
+  "name": "layout-defra-flood-warning",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Cathy Dutton",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cathydutton/layout-defra-flood-warning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cathydutton/layout-defra-flood-warning/issues"
+  },
+  "homepage": "https://github.com/cathydutton/layout-defra-flood-warning#readme",
+  "description": ""
 }
