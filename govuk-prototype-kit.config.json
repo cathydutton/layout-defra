@@ -1,0 +1,10 @@
+{
+  "stylesheets": ["/assets/css/flood-banner.css"],
+  "sass": ["/assets/scss/flood-banner.scss", "/assets/scss/flood-banner-header.scss"],
+  "assets": ["/assets/img/"],
+  "nunjucksPaths": ["/views/nunjucks",
+    "/views/layouts"
+  ],
+  "scripts": ["/assets/js/flood-banner.js"]
+
+}
