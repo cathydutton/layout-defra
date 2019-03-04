@@ -1,5 +1,5 @@
 {
-  "name": "layout-defra-flood-warning",
+  "name": "flood-banner",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
