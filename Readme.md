@@ -16,6 +16,10 @@ With...
 
 `{% extends 'layout-defra.html' %}`
 
+Set the service name... 
+
+`{% set DefraServiceName = "My service name" %}`
+
 
 ## License
 
