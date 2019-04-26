@@ -1,5 +1,5 @@
 {
-  "sass": ["/assets/scss/flood-banner.scss", "/assets/scss/flood-banner-header.scss"],
+  "sass": ["/assets/scss/defra-header.scss"],
   "assets": ["/assets/img/"],
   "nunjucksPaths": ["/views/layouts"]
 }

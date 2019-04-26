@@ -1,29 +1,12 @@
 # Defra flood warning layout
 
-Defra page template for showing flood warnings in the Gov.uk Prototype kit
+Defra page template for internal services
 
 ## How to install
 
-`npm install cathydutton/layout-defra-flood-warning`
+`npm install cathydutton/layout-defra`
 
 ## How to include
-
-Set the class name and banner text values at the top of the page.
-
-```
-{% set floodWarningClass = "alert" %}
-{% set floodWarningTitle = "Flooding is possible - be prepared" %}
-```
-
-```
-{% set floodWarningClass = "warning" %}
-{% set floodWarningTitle = "Flooding expected - Take action" %}`
-```
-
-```
-{% set floodWarningClass = "severe" %}
-{% set floodWarningTitle = "Danger to life" %}`
-```
 
 Replace this line 
 
@@ -31,7 +14,7 @@ Replace this line
 
 With...
 
-`{% extends 'layout-defra-flood-warning.html' %}`
+`{% extends 'layout-defra.html' %}`
 
 
 ## License
