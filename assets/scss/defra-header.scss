@@ -1,9 +1,10 @@
 $defra-brand-colour: #00a33b;
-
+$defra-brand-bg-colour: #F3F3F3;
 
 .defra-internal-header {
     padding: 20px 0;
-    border-bottom: 2px solid $defra-brand-colour;
+    border-bottom: 4px solid $defra-brand-colour;
+    background: $defra-brand-bg-colour;
   }
 
   @media (min-width: 48.0625em) {
@@ -41,7 +42,8 @@ $defra-brand-colour: #00a33b;
     text-decoration: none;
   }
   
-  .defra-internal-service-name__link:link, .defra-internal-service-name__link:visited {
+  .defra-internal-service-name__link:link, 
+  .defra-internal-service-name__link:visited {
     color: $govuk-text-colour
   }
   
@@ -56,24 +58,21 @@ $defra-brand-colour: #00a33b;
     padding-left: 8px;
   }
 
-//   .c-defra-logo__title {
-//     margin-left: 10px;
-//   }
-  
   .defra-logo__link {
     display: table;
   }
   
   .defra-logo__link::before {
-    // content: '';
-    // display: table-cell;
-    // background: url($govuk-extensions-url-context + "/defra-template/assets/img/defra-crest.png") no-repeat;
-    // background-size: 100% 100%;
-    // width: 48px;
-    // height: 40px;
+    content: '';
+    display: table-cell;
+    background: url($govuk-extensions-url-context + "/defra-template/assets/img/Department_for_Environment,_Food_and_Rural_Affairs_logo.png") no-repeat;
+    background-size: 100% 100%;
+    width: 138px;
+    height: 75px;
   }
   
-  .defra-logo__link:link, .defra-logo__link:visited {
+  .defra-logo__link:link, 
+  .defra-logo__link:visited {
     text-decoration: none;
     font-size: 20px;
     color: $govuk-text-colour;
