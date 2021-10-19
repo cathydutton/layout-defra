@@ -9,11 +9,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cathydutton/layout-defra-flood-warning.git"
+    "url": "git+https://github.com/cathydutton/layout-defra.git"
   },
   "bugs": {
-    "url": "https://github.com/cathydutton/layout-defra-flood-warning/issues"
+    "url": "https://github.com/cathydutton/layout-defra/issues"
   },
-  "homepage": "https://github.com/cathydutton/layout-defra-flood-warning#readme",
+  "homepage": "https://github.com/cathydutton/layout-defra#readme",
   "description": ""
 }
