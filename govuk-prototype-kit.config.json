@@ -1,5 +1,5 @@
 {
-  "sass": ["/assets/scss/defra-header.scss"],
+  "sass": ["/assets/scss/defra-settings.scss", "/assets/scss/defra-header.scss", "/assets/scss/defra-footer.scss"],
   "assets": ["/assets/img/"],
   "nunjucksPaths": ["/views/layouts"]
 }
