@@ -1,10 +1,11 @@
-$defra-brand-colour: #00a33b;
-$defra-brand-bg-colour: #F3F3F3;
+/*
+  Layout - Header
+  ----------------------------------- */
 
 .defra-internal-header {
     padding: 20px 0;
-    border-bottom: 4px solid $defra-brand-colour;
-    background: $defra-brand-bg-colour;
+    border-bottom: 8px solid $defra-brand-colour;
+
   }
 
   @media (min-width: 48.0625em) {
@@ -37,9 +38,9 @@ $defra-brand-bg-colour: #F3F3F3;
   }
   
   .defra-internal-service-name__link {
-    font-size: 20px;
-    font-weight: bold;
     text-decoration: none;
+    font-size: 21px;
+    font-weight: 400;
   }
   
   .defra-internal-service-name__link:link, 
