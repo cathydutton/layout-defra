@@ -1,4 +1,10 @@
+
+
+{% set DefraServiceName = "My service name" %}
 {% extends "govuk/template.njk" %}
+
+
+
 
 {% block headIcons %}
   <link rel="shortcut icon" href="{{ asset_path }}images/unbranded.ico?0.18.3" type="image/x-icon" />
@@ -34,7 +40,7 @@
 {% endblock %}
 
 {% block footer %}
-  <footer class="govuk-footer " role="contentinfo">
+  {# <footer class="govuk-footer " role="contentinfo">
     <div class="govuk-width-container ">
       
       <div class="govuk-footer__meta">
@@ -53,7 +59,23 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> #}
+
+
+  <div class="footer-container">
+      <footer class="govuk-width-container">
+        <div class="wrapper-footer__system">
+          <div class="footer-message">
+            <p class="govuk-body defra-footer-text">A Defra Digital, Data and Technology service</p>
+          </div>
+          <div class="footer-menu">
+            <ul>
+              <li><a href="accessibility-statement" class="govuk-link">Accessibility statement</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
 {% endblock %}
 
 {% block bodyEnd %}
